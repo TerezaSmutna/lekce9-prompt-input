@@ -1,4 +1,4 @@
-function zkontroluj(rodneCislo) {
+function zkontroluj() {
   let rodneCislo = document.querySelector('input[name="rodne-cislo"]').value;
   if (zkontrolujRodneCislo(rodneCislo)) {
     alert('Správně zadané rodné číslo.');
